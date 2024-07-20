@@ -20,6 +20,8 @@ def load_data():
     le_anime_id = LabelEncoder()
     le_anime_id.fit(anime["anime_id"])
     anime = anime.with_columns(pl.Series("anime_id", le_anime_id.transform(anime["anime_id"])).alias("anime_id"))
+    train = train.with_columns(pl.Series("anime_id", le_anime_id.transform(train["anime_id"])).alias("anime_id"))
+    test = test.with_columns(pl.Series("anime_id", le_anime_id.transform(test["anime_id"])).alias("anime_id"))
 
     # データ型を縮小
     anime = anime.select(pl.all().shrink_dtype())
