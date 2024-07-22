@@ -49,6 +49,7 @@ lightgbm==4.4.0
 matplotlib==3.9.1
     # via japanize-matplotlib
     # via matplotlib-venn
+    # via seaborn
     # via workspace
 matplotlib-inline==0.1.7
     # via ipykernel
@@ -66,11 +67,13 @@ numpy==1.26.4
     # via pyarrow
     # via scikit-learn
     # via scipy
+    # via seaborn
     # via workspace
 packaging==24.0
     # via ipykernel
     # via matplotlib
 pandas==2.2.2
+    # via seaborn
     # via workspace
 parso==0.8.4
     # via jedi
@@ -111,6 +114,8 @@ scipy==1.14.0
     # via lightgbm
     # via matplotlib-venn
     # via scikit-learn
+seaborn==0.13.2
+    # via workspace
 six==1.16.0
     # via asttokens
     # via python-dateutil
