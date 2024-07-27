@@ -1,5 +1,5 @@
 defaults:
-  - model: lgb
+  - model@lgb: lgb
   - _self_
 
 data:
