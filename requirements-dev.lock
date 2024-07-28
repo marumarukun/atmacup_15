@@ -6,14 +6,11 @@
 #   features: []
 #   all-features: false
 #   with-sources: false
-#   generate-hashes: false
 
 -e file:.
 antlr4-python3-runtime==4.9.3
     # via hydra-core
     # via omegaconf
-appnope==0.1.4
-    # via ipykernel
 asttokens==2.4.1
     # via stack-data
 comm==0.2.2
@@ -44,6 +41,7 @@ jedi==0.19.1
     # via ipython
 joblib==1.4.2
     # via scikit-learn
+    # via scikit-surprise
 jupyter-client==8.6.1
     # via ipykernel
 jupyter-core==5.7.2
@@ -76,6 +74,7 @@ numpy==1.26.4
     # via pandas
     # via pyarrow
     # via scikit-learn
+    # via scikit-surprise
     # via scipy
     # via seaborn
     # via workspace
@@ -130,10 +129,13 @@ pyzmq==26.0.2
 ruff==0.5.1
 scikit-learn==1.5.1
     # via workspace
+scikit-surprise==1.1.4
+    # via workspace
 scipy==1.14.0
     # via lightgbm
     # via matplotlib-venn
     # via scikit-learn
+    # via scikit-surprise
 seaborn==0.13.2
     # via workspace
 six==1.16.0
