@@ -49,6 +49,8 @@ jupyter-core==5.7.2
     # via jupyter-client
 kiwisolver==1.4.5
     # via matplotlib
+levenshtein==0.25.1
+    # via workspace
 lightgbm==4.4.0
     # via workspace
 matplotlib==3.9.1
@@ -126,6 +128,8 @@ pyyaml==6.0.1
 pyzmq==26.0.2
     # via ipykernel
     # via jupyter-client
+rapidfuzz==3.9.5
+    # via levenshtein
 ruff==0.5.1
 scikit-learn==1.5.1
     # via workspace
@@ -148,6 +152,8 @@ threadpoolctl==3.5.0
 tornado==6.4
     # via ipykernel
     # via jupyter-client
+tqdm==4.66.5
+    # via workspace
 traitlets==5.14.3
     # via comm
     # via ipykernel
