@@ -1,0 +1,5 @@
+# TODO: seen, unseenでユーザーを分けてモデル作成
+# TODO: seen:stratifiedKFold, unseen:GroupKFoldでCV
+# TODO: 今まで提出したohe, a2vで上記の分け方でseen用モデルとunseen用モデルを作成して提出してみる
+# TODO: seenでしか作れない特徴量エンジニアリング
+# TODO: unseenだったらレーティングを考慮しないanime2vecなら可能？！
