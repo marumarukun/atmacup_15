@@ -10,3 +10,4 @@ data:
   output_path: "../data/output/"
 
 seed: 42
+n_splits: 5
