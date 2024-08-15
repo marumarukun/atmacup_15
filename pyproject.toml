@@ -67,6 +67,12 @@ select = [
 ]
 ignore = [
     "F401",  # Unused import
+    "PLR2004",  # Magic value used in comparison, consider replacing with a constant
+    "PLR0913",  # Too many arguments
+    "PLW2901",  # `for` loop variable overwritten by assignment target
+    "N803",  # Argument name should be lowercase
+    "N806",  # Variable name should be lowercase
+    "N812",  # Lowercase imported as non-lowercase
 ]
 
 
