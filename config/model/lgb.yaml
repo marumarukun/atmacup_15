@@ -15,5 +15,5 @@ params:
   reg_lambda: 0.1
 
 early_stopping_rounds: 500
-log_evaluation_period: 100
+log_evaluation_period: 500
 num_boost_round: 100000
